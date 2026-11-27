@@ -2,28 +2,28 @@
 class Ttartifacts < Formula
   desc "Publish to 23artifacts from a terminal"
   homepage "https://23artifacts.com/docs"
-  version "0.4.0"
+  version "0.5.0"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/23made/homebrew-tap/releases/download/23artifacts-0.4.0/23a-darwin-arm64.tar.gz"
-      sha256 "63358af1fb89447b2a44c4e39a2c5f5eae5a9b562b9d5275355b0f7cc969d471"
+      url "https://github.com/23made/homebrew-tap/releases/download/23artifacts-0.5.0/23a-darwin-arm64.tar.gz"
+      sha256 "326d13cfce1078c50e5aadb43340f4e1dee14e02451108c4933c53dceaa4345e"
     end
     on_intel do
-      url "https://github.com/23made/homebrew-tap/releases/download/23artifacts-0.4.0/23a-darwin-x64.tar.gz"
-      sha256 "c0c22d7fb46592122238f9b601a1e8527ed3e86d0c316393c1676dca40b53992"
+      url "https://github.com/23made/homebrew-tap/releases/download/23artifacts-0.5.0/23a-darwin-x64.tar.gz"
+      sha256 "2e28adb7311d01f943f6dbc38bf9ea8c277f6f33484de8dcc6ba41446b0317b9"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/23made/homebrew-tap/releases/download/23artifacts-0.4.0/23a-linux-arm64.tar.gz"
-      sha256 "bbd825410a56bca8a026e26d0498f2e30af46b60e4b1888b33ad98cdc28b3a56"
+      url "https://github.com/23made/homebrew-tap/releases/download/23artifacts-0.5.0/23a-linux-arm64.tar.gz"
+      sha256 "7c26c116c07a8a7fd2ac0b46d75925f112644f055773d20d80ae8572703a3541"
     end
     on_intel do
-      url "https://github.com/23made/homebrew-tap/releases/download/23artifacts-0.4.0/23a-linux-x64.tar.gz"
-      sha256 "a30bd86a35a2214c0a218577dd4a5ad9444eca7cc4f7906277aef9f3c3d1b00b"
+      url "https://github.com/23made/homebrew-tap/releases/download/23artifacts-0.5.0/23a-linux-x64.tar.gz"
+      sha256 "dabdc814066bab709f895e270d369977b928f039ca706898312ad9868ee87709"
     end
   end
 
